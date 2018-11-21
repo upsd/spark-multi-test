@@ -28,7 +28,7 @@ Instead of running the acceptance tests individually, we first run the
 
 Within our test suite class, we add the following JUnit Suite runner, which informs JUnit of the classes that belong to
 this suite (in our case, the acceptance tests):
-```
+```java
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
         AT_GetProgrammerById.class,
